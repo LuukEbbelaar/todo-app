@@ -2,7 +2,7 @@ from modules import functions
 import PySimpleGUI as sg
 import time
 
-sg.theme("Black")
+sg.theme("LightBlue2")
 
 clock = sg.Text('', key="clock")
 label = sg.Text("Type in a to-do")
