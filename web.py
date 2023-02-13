@@ -17,7 +17,7 @@ st.write('This app is to increase productivity')
 for todo in todos:
     st.checkbox(todo)
 
-st.text_input(label="input new todo", label_visibility='hidden', placeholder='Enter a new todo...',
+st.text_input(label="input new todo", label_visibility='hidden',
+              placeholder='Enter a new todo...',
               on_change=add_todo, key='new_todo')
 
-st.session_state
